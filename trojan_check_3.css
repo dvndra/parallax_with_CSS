@@ -1,0 +1,229 @@
+
+body{
+	margin:0px 0px 0px 0px;
+	background-color: white;
+}
+
+.site_centered {
+	width: 681px;
+	margin-left:auto;
+	margin-right:auto;
+	overflow: hidden;
+}
+
+/* Navigation Bar*/
+.navbar{
+	position:fixed;
+	color:#48267C;	
+	padding: 18px 15px 12px 15px;
+	text-decoration: none;
+	background-color:white;
+	top:0px;
+	width:651px;
+	overflow: hidden;
+	font-family: Gayathri, Calibri, sans-serif;
+	z-index: 1;
+}
+.left_bar{
+	font-family:"Times New Roman", serif;
+	float:left;
+	text-align: center;
+	padding:0px 0px 0px 70px;	
+}
+.right_bar{
+	float:right;
+	display:inline;
+	color:#a6a6a6;
+	padding:5px 15px 0px 0px;
+	font-size:x-small;
+}
+.navbar span{
+	float:right;
+	padding:5px 85px 0px 0px;
+	font-size:x-small;
+	color:#a6a6a6;	
+}
+/* Parallax Effect */
+.parallax{
+	perspective: 1px;
+	height: 100vh;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.parallax_layer{
+	position: absolute;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+}
+.bkgd_wrapper{
+	transform: translateZ(-0.85px)scale(1.85);
+}
+.frgd_wrapper{
+	transform: translateZ(0px);
+}
+
+/* bkgd_wrapper */
+.bkgd_crop1 {
+    width: 681px;
+    height: 550px;
+    overflow: hidden;
+}
+
+.bkgd_crop1 img {
+    width: 1100px;
+    height: 720px;
+    margin: -20px 0px 0px -210px;
+    overflow: hidden;
+}
+.bkgd_crop2 {
+    width: 681px;
+    height: 575px;
+    overflow: hidden;
+}
+
+.bkgd_crop2 img {
+    width: 1250px;
+    height: 650px;
+    margin: -70px 0px 0px -275px;
+    overflow: hidden;
+}
+.bkgd_space{
+	width:1023px;
+	height:1000px;
+	overflow: hidden;
+}
+
+/* frgd_wrapper */
+.profile{ 
+    overflow: hidden;
+    position : absolute; top:200px; left:170px; height:190px; width:335px;
+	background-color: white;	
+}
+.profile img{
+	width: 103px;
+    height: 159px;
+	margin: -15px 0px 0px 0px;	
+}
+.face{
+	position : absolute; top:30px; left: 25px;  width:106px; height:130px;
+	overflow:hidden;
+}
+.intro_name{
+	position : absolute; top:30px; left: 150px;
+	font-family:"Times New Roman",serif; color: #5b309c;
+	font-size:small;
+}
+.intro_bio{
+	position : absolute; top:48px; left: 150px;
+	font-family:Gayathri,sans-serif; color: #5b309c; font-weight: lighter;
+	font-size:180%;
+}
+.intro_bio_strong{
+	position : absolute; top:65px; left: 150px;
+	font-family:Montserrat,sans-serif; color: #48267C;
+	font-size:34px;
+}
+
+.intro_dash{
+	position : absolute; top:88px; left: 150px; color: #48267C; font-weight:900;
+	font-size: 35px; 
+}
+.intro_portfolio{
+	position : absolute; top:148px; left: 150px;
+	font-family:Gayathri,serif; color: #5b309c;
+	font-size:14px;
+}
+.columns {
+	width: 681px;
+    height: 429px; 
+    overflow: hidden;
+    font-family: Calibri,sans-serif;
+    color: white;
+}
+.small_col{
+	position : absolute; top:190px;	left: 25px; font-size: 9px;
+}
+.big_col{
+	position : absolute; top:210px;	left: 25px;
+}
+#column1 {
+	position : absolute; top:550px; left: 0px; height:429px; width:227px;
+	background-color: #5098BA;
+}
+#column2 {
+	position : absolute; top:550px; left: 227px; height:429px; width:227px;
+	background-color: #48267C;
+}
+#column3 {
+	position : absolute; top:550px; left: 454px; height:429px; width:227px;
+	background-color: #9A69C2;
+}
+
+
+.hello_txt{
+	position : absolute; top:1300px; left: 0px;
+	padding:95px 85px 0px 85px;
+	width:511px;
+	height:290px;
+	background-color: #48267C;
+	color: white;
+	font-family: Raleway, sans-serif;
+	font-size:24.5px;
+	font-weight: 600;
+}
+.hello_txt span{
+	font-size:11px; 
+	font-weight:500;
+	font-family: Kanit;
+	margin: 0px 0px 0px -5px;
+}
+.hello_txt div{
+	padding: 12px 0px 0px 0px;	
+}
+.contact_me{
+	position : absolute; top:1685px; left: 0px;
+	width: 681px;
+	height:340px;
+	background-color: white;
+	font-family:"Raleway", sans-serif;
+}
+.info{
+	float:left;
+	padding: 70px 0px 0px 50px;
+	color:#48267C;
+}
+.small_info{
+	font-size: 9px;
+}
+form{
+	width:240px;
+	padding: 100px 90px 0px 0px;
+	float:right;
+}
+form input{
+	float:right;
+	border-width:1px;
+	width:250px;
+	padding: 2px 2px 2px 7px;
+	margin:2px;
+	color:#48267C;
+	border-color: #804fc9;
+	vertical-align: text-top;
+	font-size: 9px; 
+	font-weight: 200;
+}
+input[type="submit"]{
+	background-color: #502a89; 
+	color:white;
+	width:60px;
+	height:15px;
+	font-style: italic;
+	font-family: serif;
+	text-align: center; 
+	font-size: 12px; 
+	padding:2px 2px 17px 2px
+}
+  		
+	
